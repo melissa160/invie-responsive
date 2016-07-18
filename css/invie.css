@@ -251,6 +251,7 @@ input:focus, textarea:focus {
   width: 300px;
   flex-wrap: wrap;
   align-items: center;
+  font-size: 12px;
 }
 
 .contacto img {
@@ -301,16 +302,17 @@ input:focus, textarea:focus {
 }
 
 .intereses label {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .formulario label, .sexo, .intereses {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
 .sexo {
   margin-top: 10px;
+  font-size: 16px;  
 }
 
 
@@ -453,7 +455,7 @@ input:focus, textarea:focus {
   }
   input[type="radio"],
   input[type="checkbox"] {
-    zoom: 1.5;
+    zoom: 1.7;
   }
   /* footer */
 }
