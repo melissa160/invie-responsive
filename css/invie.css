@@ -273,6 +273,9 @@ input:focus, textarea:focus {
   justify-content: space-between;
 }
 
+  input[type="text"]{
+    margin-bottom: 10px;
+  }
 
 .formulario {
   display: flex;
@@ -420,16 +423,22 @@ input:focus, textarea:focus {
 
   .contacto {
     margin: 0 auto;
+    display: block;
+  }
+  .contacto a{
+    display: block;
   }
   .formulario {
     display: block;
     margin: 0 auto;
     width: 300px;
   }
-
+  .sexo{
+    display: block;
+  }
   .intereses label {
     display: block;
-    font-size: 16px;
+    font-size: 20px;
   }
   .col1 {
     margin: 0;
